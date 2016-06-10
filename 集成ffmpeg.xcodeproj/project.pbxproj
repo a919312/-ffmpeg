@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		919517551D0A7C65008075B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 919517541D0A7C65008075B2 /* main.m */; };
+		919517581D0A7C65008075B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 919517571D0A7C65008075B2 /* AppDelegate.m */; };
+		9195175B1D0A7C65008075B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195175A1D0A7C65008075B2 /* ViewController.m */; };
+		9195175E1D0A7C65008075B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9195175C1D0A7C65008075B2 /* Main.storyboard */; };
+		919517611D0A7C65008075B2 /* __ffmpeg.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9195175F1D0A7C65008075B2 /* __ffmpeg.xcdatamodeld */; };
+		919517631D0A7C65008075B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919517621D0A7C65008075B2 /* Assets.xcassets */; };
+		919517661D0A7C65008075B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919517641D0A7C65008075B2 /* LaunchScreen.storyboard */; };
+		919517711D0A7C65008075B2 /* __ffmpegTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 919517701D0A7C65008075B2 /* __ffmpegTests.m */; };
+		9195177C1D0A7C65008075B2 /* __ffmpegUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195177B1D0A7C65008075B2 /* __ffmpegUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9195176D1D0A7C65008075B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 919517481D0A7C64008075B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9195174F1D0A7C64008075B2;
+			remoteInfo = "集成ffmpeg";
+		};
+		919517781D0A7C65008075B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 919517481D0A7C64008075B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9195174F1D0A7C64008075B2;
+			remoteInfo = "集成ffmpeg";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		919517501D0A7C64008075B2 /* 集成ffmpeg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "集成ffmpeg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		919517541D0A7C65008075B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		919517561D0A7C65008075B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		919517571D0A7C65008075B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		919517591D0A7C65008075B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9195175A1D0A7C65008075B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9195175D1D0A7C65008075B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		919517601D0A7C65008075B2 /* __ffmpeg.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = __ffmpeg.xcdatamodel; sourceTree = "<group>"; };
+		919517621D0A7C65008075B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		919517651D0A7C65008075B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		919517671D0A7C65008075B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9195176C1D0A7C65008075B2 /* 集成ffmpegTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "集成ffmpegTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		919517701D0A7C65008075B2 /* __ffmpegTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __ffmpegTests.m; sourceTree = "<group>"; };
+		919517721D0A7C65008075B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		919517771D0A7C65008075B2 /* 集成ffmpegUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "集成ffmpegUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9195177B1D0A7C65008075B2 /* __ffmpegUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __ffmpegUITests.m; sourceTree = "<group>"; };
+		9195177D1D0A7C65008075B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9195174D1D0A7C64008075B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919517691D0A7C65008075B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919517741D0A7C65008075B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		919517471D0A7C64008075B2 = {
+			isa = PBXGroup;
+			children = (
+				919517521D0A7C65008075B2 /* 集成ffmpeg */,
+				9195176F1D0A7C65008075B2 /* 集成ffmpegTests */,
+				9195177A1D0A7C65008075B2 /* 集成ffmpegUITests */,
+				919517511D0A7C64008075B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		919517511D0A7C64008075B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				919517501D0A7C64008075B2 /* 集成ffmpeg.app */,
+				9195176C1D0A7C65008075B2 /* 集成ffmpegTests.xctest */,
+				919517771D0A7C65008075B2 /* 集成ffmpegUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		919517521D0A7C65008075B2 /* 集成ffmpeg */ = {
+			isa = PBXGroup;
+			children = (
+				919517561D0A7C65008075B2 /* AppDelegate.h */,
+				919517571D0A7C65008075B2 /* AppDelegate.m */,
+				919517591D0A7C65008075B2 /* ViewController.h */,
+				9195175A1D0A7C65008075B2 /* ViewController.m */,
+				9195175C1D0A7C65008075B2 /* Main.storyboard */,
+				919517621D0A7C65008075B2 /* Assets.xcassets */,
+				919517641D0A7C65008075B2 /* LaunchScreen.storyboard */,
+				919517671D0A7C65008075B2 /* Info.plist */,
+				9195175F1D0A7C65008075B2 /* __ffmpeg.xcdatamodeld */,
+				919517531D0A7C65008075B2 /* Supporting Files */,
+			);
+			path = "集成ffmpeg";
+			sourceTree = "<group>";
+		};
+		919517531D0A7C65008075B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				919517541D0A7C65008075B2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9195176F1D0A7C65008075B2 /* 集成ffmpegTests */ = {
+			isa = PBXGroup;
+			children = (
+				919517701D0A7C65008075B2 /* __ffmpegTests.m */,
+				919517721D0A7C65008075B2 /* Info.plist */,
+			);
+			path = "集成ffmpegTests";
+			sourceTree = "<group>";
+		};
+		9195177A1D0A7C65008075B2 /* 集成ffmpegUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9195177B1D0A7C65008075B2 /* __ffmpegUITests.m */,
+				9195177D1D0A7C65008075B2 /* Info.plist */,
+			);
+			path = "集成ffmpegUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9195174F1D0A7C64008075B2 /* 集成ffmpeg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919517801D0A7C65008075B2 /* Build configuration list for PBXNativeTarget "集成ffmpeg" */;
+			buildPhases = (
+				9195174C1D0A7C64008075B2 /* Sources */,
+				9195174D1D0A7C64008075B2 /* Frameworks */,
+				9195174E1D0A7C64008075B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "集成ffmpeg";
+			productName = "集成ffmpeg";
+			productReference = 919517501D0A7C64008075B2 /* 集成ffmpeg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9195176B1D0A7C65008075B2 /* 集成ffmpegTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919517831D0A7C65008075B2 /* Build configuration list for PBXNativeTarget "集成ffmpegTests" */;
+			buildPhases = (
+				919517681D0A7C65008075B2 /* Sources */,
+				919517691D0A7C65008075B2 /* Frameworks */,
+				9195176A1D0A7C65008075B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9195176E1D0A7C65008075B2 /* PBXTargetDependency */,
+			);
+			name = "集成ffmpegTests";
+			productName = "集成ffmpegTests";
+			productReference = 9195176C1D0A7C65008075B2 /* 集成ffmpegTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		919517761D0A7C65008075B2 /* 集成ffmpegUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919517861D0A7C65008075B2 /* Build configuration list for PBXNativeTarget "集成ffmpegUITests" */;
+			buildPhases = (
+				919517731D0A7C65008075B2 /* Sources */,
+				919517741D0A7C65008075B2 /* Frameworks */,
+				919517751D0A7C65008075B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				919517791D0A7C65008075B2 /* PBXTargetDependency */,
+			);
+			name = "集成ffmpegUITests";
+			productName = "集成ffmpegUITests";
+			productReference = 919517771D0A7C65008075B2 /* 集成ffmpegUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		919517481D0A7C64008075B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = txy;
+				TargetAttributes = {
+					9195174F1D0A7C64008075B2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9195176B1D0A7C65008075B2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9195174F1D0A7C64008075B2;
+					};
+					919517761D0A7C65008075B2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9195174F1D0A7C64008075B2;
+					};
+				};
+			};
+			buildConfigurationList = 9195174B1D0A7C64008075B2 /* Build configuration list for PBXProject "集成ffmpeg" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 919517471D0A7C64008075B2;
+			productRefGroup = 919517511D0A7C64008075B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9195174F1D0A7C64008075B2 /* 集成ffmpeg */,
+				9195176B1D0A7C65008075B2 /* 集成ffmpegTests */,
+				919517761D0A7C65008075B2 /* 集成ffmpegUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9195174E1D0A7C64008075B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919517661D0A7C65008075B2 /* LaunchScreen.storyboard in Resources */,
+				919517631D0A7C65008075B2 /* Assets.xcassets in Resources */,
+				9195175E1D0A7C65008075B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9195176A1D0A7C65008075B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919517751D0A7C65008075B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9195174C1D0A7C64008075B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919517611D0A7C65008075B2 /* __ffmpeg.xcdatamodeld in Sources */,
+				9195175B1D0A7C65008075B2 /* ViewController.m in Sources */,
+				919517581D0A7C65008075B2 /* AppDelegate.m in Sources */,
+				919517551D0A7C65008075B2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919517681D0A7C65008075B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919517711D0A7C65008075B2 /* __ffmpegTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919517731D0A7C65008075B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9195177C1D0A7C65008075B2 /* __ffmpegUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9195176E1D0A7C65008075B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9195174F1D0A7C64008075B2 /* 集成ffmpeg */;
+			targetProxy = 9195176D1D0A7C65008075B2 /* PBXContainerItemProxy */;
+		};
+		919517791D0A7C65008075B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9195174F1D0A7C64008075B2 /* 集成ffmpeg */;
+			targetProxy = 919517781D0A7C65008075B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9195175C1D0A7C65008075B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9195175D1D0A7C65008075B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		919517641D0A7C65008075B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				919517651D0A7C65008075B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9195177E1D0A7C65008075B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9195177F1D0A7C65008075B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		919517811D0A7C65008075B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "集成ffmpeg/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.net.zhongyin.--ffmpeg";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		919517821D0A7C65008075B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "集成ffmpeg/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.net.zhongyin.--ffmpeg";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		919517841D0A7C65008075B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "集成ffmpegTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.net.zhongyin.--ffmpegTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/集成ffmpeg.app/集成ffmpeg";
+			};
+			name = Debug;
+		};
+		919517851D0A7C65008075B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "集成ffmpegTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.net.zhongyin.--ffmpegTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/集成ffmpeg.app/集成ffmpeg";
+			};
+			name = Release;
+		};
+		919517871D0A7C65008075B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "集成ffmpegUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.net.zhongyin.--ffmpegUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "集成ffmpeg";
+			};
+			name = Debug;
+		};
+		919517881D0A7C65008075B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "集成ffmpegUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.net.zhongyin.--ffmpegUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "集成ffmpeg";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9195174B1D0A7C64008075B2 /* Build configuration list for PBXProject "集成ffmpeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9195177E1D0A7C65008075B2 /* Debug */,
+				9195177F1D0A7C65008075B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		919517801D0A7C65008075B2 /* Build configuration list for PBXNativeTarget "集成ffmpeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919517811D0A7C65008075B2 /* Debug */,
+				919517821D0A7C65008075B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		919517831D0A7C65008075B2 /* Build configuration list for PBXNativeTarget "集成ffmpegTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919517841D0A7C65008075B2 /* Debug */,
+				919517851D0A7C65008075B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		919517861D0A7C65008075B2 /* Build configuration list for PBXNativeTarget "集成ffmpegUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919517871D0A7C65008075B2 /* Debug */,
+				919517881D0A7C65008075B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9195175F1D0A7C65008075B2 /* __ffmpeg.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				919517601D0A7C65008075B2 /* __ffmpeg.xcdatamodel */,
+			);
+			currentVersion = 919517601D0A7C65008075B2 /* __ffmpeg.xcdatamodel */;
+			path = __ffmpeg.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 919517481D0A7C64008075B2 /* Project object */;
+}
